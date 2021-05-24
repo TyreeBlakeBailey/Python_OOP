@@ -6,7 +6,7 @@
 - Pip
 - API with requests
 
-##The four pillars of object-oriented programming are:
+## The four pillars of object-oriented programming are:
 
 - Abstraction
   - Hide away the implementation details inside something i.e a prototype, or a function 
@@ -27,7 +27,7 @@ _dob = 01/02/12
 - Polymorphism
     - The condition of occurring in several forms.
 
-#differnt class names
+# Differnt class names
 - super
 - base
 - parent
@@ -37,7 +37,7 @@ Python modules are group of functions and tools that can be called by the user b
 
 ### Lambda
 - module that can be used to do maths function in one line
-- any experssiono can be used in this function
+- any expression can be used in this function
 ```python
 lambda Num1, Num2: Num2 + Num1
 ```
