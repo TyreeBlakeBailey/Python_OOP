@@ -8,15 +8,15 @@
 
 ## The four pillars of object-oriented programming are:
 
-- Abstraction
+### Abstraction
   - Hide away the implementation details inside something i.e a prototype, or a function 
   - When you are calling a function you don't need to know exactly what it is doing 
 
-- Inheritance
+### Inheritance
   - Lets one object acquire the properties and method of another object
   - Allows for re-usability
     
-- Encapsulation
+### Encapsulation
   - Removing access to part of your code and making things private
   -  Encapsulation means that each object in your code should control its own state.
   - Example below of how to create a private varible or modules 
@@ -24,7 +24,7 @@
 ```python
 _dob = 01/02/12
 ```
-- Polymorphism
+### Polymorphism
     - The condition of occurring in several forms.
 
 # Differnt class names
