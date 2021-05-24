@@ -23,5 +23,5 @@ class Reptile(Animal):
 
 reptile_object = Reptile()
 
-print(f"This function is from the reptile class {reptile_object.hunt()}")
-print(f"This function is from the Animal class {reptile_object.eat()}")
+#print(f"This function is from the reptile class {reptile_object.hunt()}")
+#print(f"This function is from the Animal class {reptile_object.eat()}")
