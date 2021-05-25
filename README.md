@@ -19,15 +19,16 @@
 ### Encapsulation
   - Removing access to part of your code and making things private
   -  Encapsulation means that each object in your code should control its own state.
-  - Example below of how to create a private varible or modules 
+  - Example below of how to create a private variable or modules 
 - Can only be called from within its own class cannot be called from external source
+
 ```python
-_dob = 01/02/12
+_dob = "01/02/12"
 ```
 ### Polymorphism
     - The condition of occurring in several forms.
 
-# Differnt class names
+# Different class names
 - super
 - base
 - parent
