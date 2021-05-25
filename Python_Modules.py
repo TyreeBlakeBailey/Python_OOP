@@ -14,18 +14,20 @@ import math
 
 def round(Num):
     if math.modf(Num)[ 0 ] >= 0.50:
-        return math.ceil(Num)
+        return f"Number rounded up: {math.ceil(Num)}"
     elif math.modf(Num)[ 0 ] < 0.50:
-        return math.floor(Num)
+        return f"Number rounded down: {math.floor(Num)}"
 
 
 def IS_String(Input):
-    Input = float(Input)
-    if isinstance(Input, float):
-        return True
-    else:
+    try:
+        Input = float(Input)
+        if isinstance(Input, float):
+            return True
+        else:
+            return False
+    except ValueError:
         return False
-
 
 while True:
     User_Num = input("Enter a decimal number to round\n")
