@@ -19,37 +19,47 @@ class Calc_Main(Functional_cacl):
                 if Input_Choice == "Add":
                     Num1, Num2 = Calculator.Nums()
                     print(Calculator.add(Num1, Num2))
+
                 elif Input_Choice == "Subtract":
                     Num1, Num2 = Calculator.Nums()
                     print(Calculator.subtract(Num1, Num2))
+
                 elif Input_Choice == "Multiply":
                     Num1, Num2 = Calculator.Nums()
                     print(Calculator.multiply(Num1, Num2))
+
                 elif Input_Choice == "Divide":
                     Num1, Num2 = Calculator.Nums()
                     print(Calculator.divide(Num1, Num2))
+
                 elif Input_Choice == "Percentage":
                     print("Num1% of Num2 is Answer")
                     Num1, Num2 = Functional_cacl.Nums()
                     print(Functional_cacl.percentage(Num1, Num2))
+
                 elif Input_Choice == "Triangle":
                     print("Enter base and height of the triangle")
                     Num1, Num2 = Calculator.Nums()
                     print(Functional_cacl.triangle(Num1, Num2))
+
                 elif Input_Choice == "Divisible":
                     print("Enter bigger number first")
                     Num1, Num2 = Calculator.Nums()
+
                     if Functional_cacl.divisible(Num1, Num2):
                         print(f"{Num1} is divisible by {Num2}")
                     else:
                         print(f"{Num1} is not divisible by {Num2}")
+
                 elif Input_Choice == "Inchtocm":
                     Inches = input('Enter inches to convert to cm ')
+
                     if Inches.isdigit():
                         print(f"{Functional_cacl.inch_cm(int(Inches))}cm")
                     else:
                         print("Invalid entry, try again")
                         continue
+
                 elif Input_Choice == "Exit":  # The user can break the loop and exit by typing exit
                     break
                 else:  # if the user doesn't enter a valid selection from the given menu it will print the following
@@ -60,6 +70,7 @@ class Calc_Main(Functional_cacl):
                 # run the following line
                 print("(‡ಠ╭╮ಠ) \nYou cannot use zero here ")
                 continue  # continue will make sure the loop carries on even if an error is thrown
+
             except ValueError:  # When Value error is raised in the try method block of code it will
                 # run the following line
                 continue
