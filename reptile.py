@@ -21,7 +21,8 @@ class Reptile(Animal):
     def use_venom(self):
         return "If i've got it im using it "
 
+
 reptile_object = Reptile()
 
-#print(f"This function is from the reptile class {reptile_object.hunt()}")
-#print(f"This function is from the Animal class {reptile_object.eat()}")
+# print(f"This function is from the reptile class {reptile_object.hunt()}")
+# print(f"This function is from the Animal class {reptile_object.eat()}")

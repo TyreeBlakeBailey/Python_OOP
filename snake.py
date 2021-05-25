@@ -1,6 +1,8 @@
 # Creating snake class as child class of reptile
 
 from reptile import Reptile
+
+
 class Snake(Reptile):
     def __init__(self):
         super().__init__()
@@ -11,6 +13,7 @@ class Snake(Reptile):
 
     def use_tongue_to_smell(self):
         return "I can small the taste...."
+
 
 snake_object = Snake()
 

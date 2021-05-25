@@ -18,8 +18,7 @@ class Animal:
     def move(self):
         return " Moving around the world"
 
-
 # create an object of our animal class to use the methods above
 
-#cat = Animal()  # created an object of our animal class named cat
-#print(cat.breathe())  # breathing for cat is abstracted
+# cat = Animal()  # created an object of our animal class named cat
+# print(cat.breathe())  # breathing for cat is abstracted

@@ -21,8 +21,9 @@ class Python(Snake):
     def shed_skin(self):
         return "Time to crawl out myself"
 
-    def __Private(self):#use double __ to make a function private
+    def __Private(self):  # use double __ to make a function private
         return "This function is private and cannot be called by anywhere else"
+
 
 python_object = Python()
 

@@ -29,6 +29,7 @@ def IS_String(Input):
     except ValueError:
         return False
 
+
 while True:
     User_Num = input("Enter a decimal number to round\n")
     if IS_String(User_Num):
